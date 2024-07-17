@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digilab Colorlib Project</title>
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="CSS/media_query.css" />
+    <link rel="stylesheet" href="./fontawesome-6.5.2/" />
+    <link rel="stylesheet" href="./aos-master/dist/aos.css"/>
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+   
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header sticky" id="Home">
+      <div class="container">
+        <nav class="navbar">
+          <div class="logo" href="Project.html">DIGI<span>LAB</span></div>
+          <input type="checkbox" id="display_nav" />
+          <label for="display_nav" class="fa fa-bars hamburger">
+            <span class="label">MENU</span>
+          </label>
+          <ul class="menu">
+            <li>
+              <a href="#home" id="Home-link"> Home </a>
+            </li>
+            <li>
+              <a href="#services" id="services-link"> Services </a>
+            </li>
+            <li>
+              <a href="#projects" id="projects-link"> Projects </a>
+            </li>
+            <li>
+              <a href="#about" id="about-link">About</a>
+            </li>
+            <li>
+              <a href="#testimony" id="testimony-link">Testimony</a>
+            </li>
+            <li>
+              <a href="#blog" id="blog-link">Blog</a>
+            </li>
+            <li>
+              <a href="#contact" id="contact-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- Home section -->
+    <section id="home" class="container">
+      <div class="owl-carousel owl-theme">
+        <div class="slide1 slide">
+          <div class="texts">
+            <h3>WELCOME TO THE DIGILAB</h3>
+            <h4>
+              <span>Strategic</span> Design And <span>Technology</span> Agency
+            </h4>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country.
+            </p>
+            <button class="touch">Get in touch</button>
+          </div>
+          <div class="image">
+            <img src="./Images/bg_1.jpg" alt="" />
+        </div>
+        </div>
+
+        <div class="slide2 slide">
+          <div class="texts">
+            <h3>WELCOME TO THE DIGILAB</h3>
+            <h4>Small Details Make A Big <span>Impression</span></h4>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country.
+            </p>
+            <button class="touch">Get in touch</button>
+          </div>
+          <div class="image">
+            <img src="./Images/bg_2.jpg" alt="" /> 
+        </div>
+        </div>
+      </div>
+      <h5>WELCOME TO DIGILAB</h5>
+    </section>
+    <script src="./JQUERY/jquery.js"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        // margin: 10,
+        nav: false,
+        loop:true,
+        autoplay:true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: false,
+        animateIn: 'fadeInUp',
+        animateOut: 'fadeOut',
+        autoplayspeed: '1000',
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+    <!-- End of home section -->
+
+<!-- services-section -->
+<section id="services">
+  <div class="container">
+   <ul class="accordion">
+      <li>
+          <input type="radio" name="accordion"
+          id="first" checked>
+          <label for="first"><a href="#business strategy"><i class="fas fa-chart-line"></i></a>BUSINESS STRATEGY</label>
+          <div class="content">
+              <h3>
+                  Business Strategy
+              </h3>
+              <p>
+                  Strategic resource allocation is critical, ensuring that
+                  budgets, time, and personnel are deployed efficiently to support
+                  marketing efforts and operational goals.
+                </p>
+                <p>
+                  Flexibility is also crucial, enabling the business to adapt
+                  swiftly to changing market conditions or customer preferences.
+                  Continuous evaluation .
+                </p>
+              <button class="click">Learn More</button>
+          </div>
+      </li>
+      <li>
+          <input type="radio" name="accordion"
+          id="second">
+          <label for="second"><a href="research"><i class="fas fa-flask"></i></a>
+          RESEARCH</label>
+          <div class="content">
+              <h3>
+                  Research
+              </h3>
+              <p>
+                  It begins with a comprehensive analysis of relevant
+                  fields, including industry trends, technological advancements,
+                  and customer preferences.
+                </p>
+                <p>
+                  Continuous evaluation of research outcomes and methodologies
+                  ensures that the business remains on track to achieve its
+                  long-term research goals. 
+                </p>
+              <button class="click">Learn More</button>
+          </div>
+      </li>
+      <li>
+          <input type="radio" name="accordion"
+          id="third">
+          <label for="third"><a href="data analysis"><i class="fas fa-search"></i></a>DATA ANALYSIS</label>
+          <div class="content">
+              <h3>
+                  Data Analysis
+              </h3>
+              <p>
+                  It starts with a thorough understanding of data
+                  sources, including customer interactions, market trends, and
+                  operational metrics.
+                </p>
+                <p>
+                  Ultimately, a well-crafted data analysis strategy not only
+                  enhances operational efficiency but also empowers the business
+                  to identify opportunities, mitigate risks, and improve customer
+                  satisfaction.
+                </p>
+              <button class="click">Learn More</button>
+          </div>
+      </li>
+      <li>
+          <input type="radio" name="accordion"
+          id="fourth">
+          <label for="fourth"><a href="ui design"><i class="fas fa-laptop-code"></i></a>UI DESIGN</label>
+          <div class="content">
+              <h3>
+                  UI Design
+              </h3>
+              <p>
+                  Creating an effective UI design strategy for a small business
+                  involves understanding user preferences deeply through extensive
+                  research and testing.
+                </p>
+                <p>
+                  Remaining flexible in adapting UI designs based on user feedback
+                  and usability testing results is crucial for continuous
+                  improvement. Regular evaluation of design effectiveness through
+                  metrics like user engagement.
+                </p>
+              <button class="click">Learn More</button>
+          </div>
+      </li>
+      <li>
+          <input type="radio" name="accordion"
+          id="fifth">
+          <label for="fifth"><a href="ux design"><i class="fas fa-code"></i></a>UX DESIGN</label>
+          <div class="content">
+              <h3>
+                  UX Design
+              </h3>
+              <p>
+                  Flexibility in adapting UX designs based on user feedback,
+                  usability testing, and evolving industry standards is crucial
+                  for continuous improvement.
+                </p>
+                <p>
+                  Ultimately, a well-crafted UX design strategy not only enhances
+                  user satisfaction and loyalty but also strengthens the
+                  business's brand reputation and competitiveness. By prioritizing
+                  user-centric design principles.
+                </p>
+              <button class="click">Learn More</button>
+          </div>
+      </li>
+      <li>
+          <input type="radio" name="accordion"
+          id="sixth">
+          <label for="sixth"><a href="technology"><i class="fas fa-cog"></i></a>TECHNOLOGY</label>
+          <div class="content">
+              <h3>
+                  Technology
+              </h3>
+              <p>
+                  Developing a strategic approach to technology for a small
+                  business involves leveraging current trends and tools to enhance
+                  operations and competitiveness.
+                </p>
+                <p>
+                  Embracing innovation in technology allows the business to stay
+                  ahead of competitors and adapt to changing market dynamics.
+                  Flexibility in adopting new technologies and upgrading existing
+                  systems based on scalability.
+                </p>
+              <button class="click">Learn More</button>
+          </div>
+      </li>
+      <li>
+          <input type="radio" name="accordion"
+          id="seventh">
+          <label for="seventh"><a href="creative"><i class="fas fa-lightbulb"></i></a>CREATIVE</label>
+          <div class="content">
+              <h3>
+                  Creative
+              </h3>
+              <p>
+                  Fostering creativity within a small business involves
+                  cultivating a culture that values and encourages innovative
+                  thinking and experimentation.
+                </p>
+                <p>
+                  Regular evaluation of creative initiatives through metrics like
+                  innovation adoption rates or customer feedback helps gauge their
+                  impact and effectiveness. 
+                </p>
+              <button class="click">Learn More</button>
+          </div>
+      </li>
+   </ul>
+ </div>
+</section>
+<!-- second-section2 -->
+
+
+      <!-- Second -->
+      <div class="second">
+        <img src="./Images/bg_3.jpg" alt="" />
+        <div class="mini">
+          <div class="mini-card">
+            <h4>Market Research</h4>
+            <p>
+              Even the all-powerful Pointing has no control about the blind.
+            </p>
+            <div class="angle">
+              <i class="fa fa-angle-left"></i>
+              <i class="fa fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="mini-card">
+            <h4>Market Research</h4>
+            <p>
+              Even the all-powerful Pointing has no control about the blind.
+            </p>
+            <div class="angle">
+              <i class="fa fa-angle-left"></i>
+              <i class="fa fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="mini-card">
+            <h4>Market Research</h4>
+            <p>
+              Even the all-powerful Pointing has no control about the blind.
+            </p>
+            <div class="angle">
+              <i class="fa fa-angle-left"></i>
+              <i class="fa fa-angle-right"></i>
+            </div>
+          </div>
+          <div class="mini-card">
+            <h4>Market Research</h4>
+            <p>
+              Even the all-powerful Pointing has no control about the blind.
+            </p>
+            <div class="angle">
+              <i class="fa fa-angle-left"></i>
+              <i class="fa fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OF SERVICES SECTION -->
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <div class="container">
+        <h5>ACCOMPLISHMENTS</h5>
+        <h3>OUR PROJECTS</h3>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        <div class="slider-images"> 
+          <div class="slider-img">
+            <img src="./Images/project-1.jpg" alt="1">
+            <!-- <h1>WEB NAME</h1> -->
+            <div class="details">
+              <h2>Web Name </h2>
+              <h6>WEB DESIGN</h6>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="./Images/project-2.jpg" alt="2">
+            <!-- <h1>WEB NAME</h1> -->
+            <div class="details">
+              <h2>Web Name </h2>
+              <h6>WEB DESIGN</h6>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="./Images/project-3.jpg"  alt="3">
+            <!-- <h1>WEB NAME</h1> -->
+            <div class="details">
+              <h2>Web Name </h2>
+              <h6>WEB DESIGN</h6>
+            </div>
+          </div>
+          <div class="slider-img active">
+            <img src="./Images/project-4.jpg" alt="4">
+            <!-- <h1>WEB NAME</h1> -->
+            <div class="details">
+              <h2>Web Name </h2>
+              <h6>WEB DESIGN</h6>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="./Images/project-5.jpg" alt="5">
+            <!-- <h1>WEB NAME</h1> -->
+            <div class="details">
+              <h2>Web Name </h2>
+              <h6>WEB DESIGN</h6>
+            </div>
+          </div>
+          <div class="slider-img">
+            <img src="./Images/project-6.jpg" alt="6">
+            <!-- <h1>WEB NAME</h1> -->
+            <div class="details">
+              <h2>Web Name </h2>
+              <h6>WEB DESIGN</h6>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section> 
+    
+    <script src="JQUERY/jquery.js"></script>
+    <script>
+      jQuery(document).ready(function($){
+
+        $('.slider-img').on('click',function(){
+          $('.slider-img').removeClass('active');
+          $(this).addClass('active');
+        })
+      });
+    </script> 
+    
+    <script src="projectscript.js"></script>
+    
+    <script>
+      window.addEventListener('scroll', function(){
+        var header = document.querySelector('.header');
+        if (window.pageYOffset > 1){
+          header.classList.add('sticky');
+        } else{
+          header.classList.remove('sticky')
+        }
+      })
+    </script>
+   <!-- END OF PROJECT -->
+
+   <!-- about section -->
+   <section id="about">
+    <div class="container">
+      <div class="top">
+        <img src="./Images/about.jpg" alt="" data-aos="fade-right">
+        <div class="text" data-aos="fade-up">
+          <h4>WELCOME TO DIGILAB</h4>
+            <h2>We Are Digital Agency</h2>
+            <p>
+              A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
+            <p>
+              Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+            </p>
+            <p>
+              A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
+            <div class="years">
+              <span>20</span>
+              <h3>YEARS OF EXPERIENCE</h3>
+            </div>
+        </div>
+      </div>
+      <div class="bottom" data-aos="fade-up">
+        <div class="bottom-text">
+          <h5>ABOUT US</h5>
+          <h3>OUR STAFF</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        </div>
+        <div class="bottom-card">
+          <div class="card">
+            <img src="./Images/staff-1.jpg" alt="">
+            <h3>Lloyd Wilson</h3>
+            <h5>CEO, FOUNDER</h5>
+            <div class="social-icon">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/staff-2.jpg" alt="">
+            <h3>Micheal Parker</h3>
+            <h5>WEB DESIGNER</h5>
+            <div class="social-icon">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/staff-3.jpg" alt="">
+            <h3>Ian Smith</h3>
+            <h5>WEB DEVELOPER</h5>
+            <div class="social-icon">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./Images/staff-4.jpg" alt="">
+            <h3>John Henderson</h3>
+            <h5>GRAPHIC DESIGNER</h5>
+            <div class="social-icon">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-google-plus-g"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+    <!-- END OF ABOUT -->
+
+    <!-- Testimony -->
+    <section id="testimony">
+      <div class="container">
+        <h3>
+          HAPPY CLIENTS
+        </h3>
+        <!-- review client-cards -->
+        <div class="client-cards">
+          <div class="client-card">
+            <img src="./Images/person_1.jpg" alt="">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there lived the bird texts.
+            </p>
+            <h4>
+              John Fox
+            </h4>
+            <h6>
+              Businessman
+            </h6>
+            <i class="fa fa-quote-left"></i>
+          </div>
+          <div class="client-card">
+            <img src="./Images/person_2.jpg" alt="">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there lived the bird texts.
+            </p>
+            <h4>
+              John Fox
+            </h4>
+            <h6>
+              Businessman
+            </h6>
+            <i class="fa fa-quote-left"></i>
+          </div>
+          <div class="client-card">
+            <img src="./Images/person_3.jpg" alt="">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there lived the bird texts.
+            </p>
+            <h4>
+              John Fox
+            </h4>
+            <h6>
+              Businessman
+            </h6>
+            <i class="fa fa-quote-left"></i>
+          </div>
+          <div class="client-card">
+            <img src="./Images/person_4.jpg" alt="">
+            <p>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there lived the bird texts.
+            </p>
+            <h4>
+              John Fox
+            </h4>
+            <h6>
+              Businessman
+            </h6>
+            <i class="fa fa-quote-left"></i>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- end of testimony -->
+
+     <!-- Blog -->
+      <section id="blog">
+        <div class="container" data-aos="fade-up">
+          <div class="top_text">
+            <h5>BLOG</h5>
+            <h3>OUR BLOG</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+          </div>
+          <div class="blog_card">
+            <div class="blog-cards">
+              <div class="blog-images">
+                <img src="./Images/image_1.jpg" alt="">
+                <div class="image-text">
+                  <h2>12</h2>
+                  <p> 2019 March</p>
+                </div>
+              </div>
+              <div class="blog-text">
+                <main>
+                  Why Lead Generation is Key for Business Growth
+                </main>
+                <article>
+                  A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                </article>
+              </div>
+              <div class="blog_footer">
+                <button>
+                  Read More <i class="fa fa-arrow-right"></i>
+                </button>
+                <span>
+                  Admin<i class="fa-regular fa-message"> 3</i>
+                </span>
+              </div>
+            </div>
+            <div class="blog-cards">
+              <div class="blog-images">
+                <img src="./Images/image_2.jpg" alt="">
+                <div class="image-text">
+                  <h2>10</h2>
+                  <p> 2019 March</p>
+                </div>
+              </div>
+              <div class="blog-text">
+                <main>
+                  Why Lead Generation is Key for Business Growth
+                </main>
+                <article>
+                  A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                </article>
+              </div>
+              <div class="blog_footer">
+                <button>
+                  Read More <i class="fa fa-arrow-right"></i>
+                </button>
+                <span>
+                  Admin<i class="fa-regular fa-message"> 3</i>
+                </span>
+              </div>
+            </div>
+            <div class="blog-cards">
+              <div class="blog-images">
+                <img src="./Images/image_3.jpg" alt="">
+                <div class="image-text">
+                  <h2>05</h2>
+                  <p> 2019 March</p>
+                </div>
+              </div>
+              <div class="blog-text">
+                <main>
+                  Why Lead Generation is Key for Business Growth
+                </main>
+                <article>
+                  A small river named Duden flows by their place and supplies it with the necessary regelialia.
+                </article>
+              </div>
+              <div class="blog_footer">
+                <button>
+                  Read More <i class="fa fa-arrow-right"></i>
+                </button>
+                <span>
+                  Admin<i class="fa-regular fa-message"> 3</i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of blog -->
+      <script src="aos-master/dist/aos.js"></script>
+      <script>
+        AOS.init();
+     </script>
+     <section id="contact">
+      <div class="container">
+        <div class="contact-texts">
+          <h5>CONTACT</h5>
+          <h3>CONTACT US</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="info">
+            <div class="info-icon">
+              <i class="fa-solid fa-signs-post"></i>
+            </div>
+            <h3>ADDRESS</h3>
+            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+          </div>
+          <div class="info">
+            <div class="info-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <h3>CONTACT NUMBER</h3>
+            <p>+ 1235 2355 98</p>
+          </div>
+          <div class="info">
+            <div class="info-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <h3>EMAIL ADDRESS</h3>
+            <p>info@digilab.com</p>
+          </div>
+          <div class="info">
+            <div class="info-icon">
+              <i class="fa-solid fa-earth-asia"></i>
+            </div>
+            <h3>WEBSITE</h3>
+            <p>digilab.com</p>
+          </div>
+        </div>
+        <div class="form">
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.086924450026!2d144.95565251568237!3d-37.81732797975162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727f1b4b1d850!2sRMIT%20University!5e0!3m2!1sen!2sau!4v1579093282408!5m2!1sen!2sau"></iframe>
+          </div>
+          <div class="contact-form">
+            <form action="#" method="POST">
+              <input type="text" id="name" placeholder="Your Name" autocomplete="name" required>
+              <input type="email" id="email" placeholder="Your Email" autocomplete="email" required>
+              <input type="text" id="subject" autocomplete="subject" name="subject" placeholder="Subject" required>
+              <textarea name="message" id="message" placeholder="Message" required></textarea>
+              <button type="submit">Send Message</button>
+          </form>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="footer-about">
+            <h4>About Digilab</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <div class="about-icon">
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li>
+                <a href="#home"><i class="fa fa-arrow-right"></i>Home</a>
+              </li>
+              <li>
+                <a href="#about">
+                  <i class="fa fa-arrow-right"></i>About
+                </a>
+              </li>
+              <li>
+                <a href="#services"><i class="fa fa-arrow-right"></i>Services</a>
+              </li>
+              <li>
+                <a href="#projects"><i class="fa fa-arrow-right"></i>Projects</a>
+              </li>
+              <li>
+                <a href="#contact"><i class="fa fa-arrow-right"></i>Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-services">
+            <h4>Services</h4>
+            <ul>
+              <li>
+                <a href=""><i class="fa fa-arrow-right"></i>Web Design</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-arrow-right"></i>Web Development</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-arrow-right"></i>Business Strategy</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-arrow-right"></i>Data Analysis</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-arrow-right"></i>Graphic Design</a>
+              </li>
+            </ul>
+          </div>
+          <div class="question">
+            <h4>Have a Question?</h4>
+            <div class="address">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <div class="phone">
+              <i class="fa-solid fa-phone"></i>
+              <p>+2 3878 658 23</p>
+            </div>
+            <div class="message">
+              <i class="fa-solid fa-envelope"></i>
+              <p>info@digilab.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright &copy;2024 All rights reserved  |  This website was made with ❤️ by <i>TOBZ.</i></p>
+        </div>
+      </footer>
+     </section>
+  </body>
+</html>
